@@ -48,18 +48,23 @@ anotherName = "YT GROOMARK 619"
 console.log(myYTname);
 console.log(anotherName);
 
+//Non Primitive -> Heap -> Referance : we are making changes in original value
+
 let userOne = {
     Email:"123@gmail.com",
     UPI:"user@ybl"
 }
 
-//Non Primitive -> Heap -> Referance : we are making changes in original value
 let userTwo = userOne
 userTwo.email = "Groomark@gmail.com"
 userTwo.UPI = "GROOMARKGG@ybl"
 
 console.log(userOne.email);
 console.log(userTwo.email);
+console.log(userOne.UPI);
+console.log(userTwo.UPI);
+
+
 
 
 
